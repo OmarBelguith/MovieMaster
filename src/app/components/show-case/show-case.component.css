@@ -1,0 +1,11 @@
+nav{
+  background-color: darkslateblue;
+}
+a{
+  color: blanchedalmond;
+  font-size: medium;
+}
+.panel-heading{
+  font-size: large;
+  color: blanchedalmond;
+}

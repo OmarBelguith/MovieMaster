@@ -1,0 +1,10 @@
+nav{
+  background-color: darkslateblue;
+}
+a{
+  color: blanchedalmond;
+  font-size: medium;
+}
+a.navbar-brand{
+  font-size: large;
+}

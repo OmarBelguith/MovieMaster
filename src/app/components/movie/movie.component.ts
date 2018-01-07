@@ -9,11 +9,11 @@ import {DomSanitizer} from '@angular/platform-browser';
   styleUrls: ['./movie.component.css']
 })
 export class MovieComponent implements OnInit {
-  movie: Object;
+  movie: any;
   reviews: Array<Object>;
   similarMovies: Array<Object>;
   cast: Array<Object>;
-  video: Object;
+  video: any;
   constructor( private _moviesServices: MoviesService,
                private router: ActivatedRoute,
                private sanitizer: DomSanitizer) { }
